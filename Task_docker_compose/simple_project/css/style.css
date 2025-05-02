@@ -1,0 +1,95 @@
+header, main {
+  width: 50vw;
+  margin: auto;
+}
+
+header h1 { 
+  display: inline;
+}
+
+header a {
+  float: right;
+  margin-top: 15px;
+}
+
+header h3 {
+  color: gray;
+}
+
+header a, main a {
+  color: blue;
+  text-decoration: none;
+}
+
+header a:hover, main a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+article {
+  border-bottom: 1px solid lightgrey;
+}
+
+article h3 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+article h3.date, article h3.action {
+  float: right;
+  color: gray;
+}
+
+article h3.action a {
+  color: gray;
+}
+
+article h3.action a.edit {
+  margin-right: 20px;
+}
+
+article h3.title a {
+  color: black;
+  text-decoration: none;
+}
+
+article h3.title a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form button:hover {
+  cursor: pointer;
+}
+
+p.error {
+  color: red;
+  font-size: small;
+  margin: 0 0 10px 5px;
+}
+
+p.success {
+  color: green;
+}
